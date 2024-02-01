@@ -11,7 +11,37 @@ body {
 }
 
 .content {
-    height: 120vh;
+    height: 150vh;
     margin: 0;
     padding: 0;
+}
+
+.container-description {
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    position: absolute;
+    top: 110vh;
+    width: 90vw;
+    height: 150vh;
+    /* background-color: aliceblue; */
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border: solid 1px gray;
+}
+
+.description-left {
+    width: 40%;
+    height: 100%;
+    background-color: #000;
+}
+
+.description-right {
+    border-left: solid 1px gray;
+    width: 60%;
+    background-color: #000;
+    height: 100%;
 }
