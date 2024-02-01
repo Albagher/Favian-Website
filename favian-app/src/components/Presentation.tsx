@@ -7,7 +7,7 @@ gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
 import "./Presentation.scss"
 function Presentation() {
-
+ // @ts-ignore
     const slideInleft = (elem, delay, duration) => {
         gsap.fromTo(
           elem,
@@ -28,7 +28,7 @@ function Presentation() {
           }
         );
       };
-
+ // @ts-ignore
       const slideInleft1 = (elem, delay, duration) => {
         gsap.fromTo(
           elem,
@@ -49,7 +49,7 @@ function Presentation() {
           }
         );
       };
-
+        // @ts-ignore
       const slideInleft2 = (elem, delay, duration) => {
         gsap.fromTo(
           elem,
@@ -73,14 +73,17 @@ function Presentation() {
 
 
       useEffect(() => {
+         // @ts-ignore
         slideInleft("#title");
       }, []);
 
       useEffect(() => {
+         // @ts-ignore
         slideInleft1("#subtitle");
       }, []);
 
       useEffect(() => {
+         // @ts-ignore
         slideInleft2("#btntext");
       }, []);
 
