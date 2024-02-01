@@ -1,48 +1,48 @@
 .presentation {
-    background-color: #000;
+    position: absolute;
+    top: 20vh;
+    left: 5vw;
     color: #fff;
     margin-left: 40px;
-    font-family: 'Poppins', sans-serif;
-    
+    font-family: "Poppins", sans-serif;
 
-    &__titel{
+    &__titel {
         width: 846px;
         border: 0;
         margin: 0;
         outline: 0;
 
-        .titel--text{
+        .titel--text {
             font-size: 80px;
             letter-spacing: normal;
             line-height: 1.2em;
         }
     }
 
-    &__subtitel{
+    &__subtitel {
         width: 459px;
 
         .subtitl--text {
             font-size: 30px;
         }
-        
     }
 
     &__btn {
         margin-top: 50px;
         .btn--text {
-            background-color: #FD6262;
+            background-color: #fd6262;
             color: #141416;
             transition: 0.3s ease-in-out;
             padding: 18px;
+            border-radius: 5px;
+            border: none;
 
-            &:hover{
+            &:hover {
                 background-color: #000;
                 color: #fff;
                 border: solid 1px #fff;
                 border-radius: 5px;
             }
         }
-
-        
     }
 }
