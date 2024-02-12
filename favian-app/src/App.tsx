@@ -171,7 +171,7 @@ function App() {
                                                 objectFit: 'cover',
                                                 height: "999px",
                                                 opacity: '0.5',
-                                                filter: "contrast(88%)",
+                                                filter: "contrast(98%)",
 
 
 
