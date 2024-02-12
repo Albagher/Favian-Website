@@ -6,6 +6,7 @@ import Presentation from "./components/Presentation";
 import bgImageSectionLeft from "./images/bg-left-section2.webp";
 import bgImageSection3Left from "./images/bg-left-section3.webp";
 import bgImageSection4bottm from "./images/bg-center-section4.webp";
+import partnersBg from "./images/partnersBg.webp"
 
 function App() {
     return (
@@ -187,6 +188,63 @@ function App() {
                                 </div>
                             </div>
                         </Parallax>
+                    </div>
+                </section>
+            </div>
+            {/* section 5 */}
+            <div className="container-partners">
+                <section className="partners">
+                    <div className="partners-logo">
+                        <div className="logo">Our Partners</div>
+                        <div className="logo">logo2</div>
+                        <div className="logo">logo3</div>
+                        <div className="logo">logo4</div>
+                        <div className="logo">logo5</div>
+                    </div>
+
+                    <div className="partners-contenu">
+
+                        <div className="partners-qustion">
+                            <Parallax
+                                strength={500}
+                                renderLayer={(percentage) => (
+                                    <div
+                                        style={{
+                                            position: "absolute",
+                                            // width: `100%`,
+                                            // height: "1500px",
+                                            // overflow: "hidden",
+                                            // top: "-160.164px",
+                                            // transform: `0px, 0px,  ${percentage * 2}px`,
+                                            // transform:"translateZ(0px)"
+                                            transform:`perspective(500px) translate3d(10px, 0, ${percentage * 100}px)`
+
+                                        }}
+                                    >
+                                        <img
+                                            src={partnersBg}
+                                            alt="Votre image"
+                                            style={{
+                                                // width: "100%",
+                                                overflow: "hidden",
+                                                filter: "contrast(1.18)",    
+                                            }}
+                                        />
+                                    </div>
+                                )}
+                            >
+                                <div className="partners-content">
+                                    <div className="text-content">
+                                        Lorem ipsum dolor sit, amet consectetur
+                                        adipisicing elit ?
+                                    </div>
+                                </div>
+                            </Parallax>
+                        </div>
+                        <div className="partners-contact">
+                            text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium ab fugit nostrum ratione illum, odit similique ullam voluptatum
+                            <button>click</button>
+                        </div>
                     </div>
                 </section>
             </div>

@@ -1,6 +1,6 @@
 body {
     background-color: #000;
-    /* height: 3700px; */
+    height: 7000px;
     margin: 0;
     padding: 0;
 }
@@ -118,4 +118,50 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
+}
+
+.container-partners {
+    display: flex;
+    justify-content: center;
+}
+
+.partners {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    border: solid 1px gray;
+    width: 94%;
+}
+
+.partners-logo {
+    /* width: 100%; */
+    /* background-color: red; */
+    border-bottom: solid 1px gray;
+    display: flex;
+    height: 200px;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    border-right: 1px solid gray;
+}
+
+.partners-contenu {
+    /* width: 100%; */
+    display: flex;
+}
+
+.partners-qustion {
+    width: 70%;
+    border-right: solid 1px gray;
+}
+
+.partners-content {
+    height: 78vh;
 }
