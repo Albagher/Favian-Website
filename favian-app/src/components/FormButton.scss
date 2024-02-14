@@ -1,0 +1,17 @@
+.forme__btn {
+  background-color: transparent;
+  color: gray;
+  transition: 0.3s ease-in-out;
+  padding: 18px;
+  border-radius: 5px;
+  border: 1px solid;
+  cursor: pointer;
+  font-size: 17px;
+
+  &:hover {
+    background-color: #889ce7;
+    color: #141416;
+    border: none;
+    border-radius: 5px;
+  }
+}
