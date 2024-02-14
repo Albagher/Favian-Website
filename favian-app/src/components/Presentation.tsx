@@ -6,6 +6,7 @@ import { ScrollToPlugin, ScrollTrigger } from "gsap/all";
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
 import "./Presentation.scss"
+import Button from "./Button";
 function Presentation() {
  // @ts-ignore
     const slideInleft = (elem, delay, duration) => {
@@ -115,7 +116,8 @@ function Presentation() {
 
 <div className="presentation__btn " id="btntext">
 
-  <button className='btn--text' >Explore Our Services</button>
+  {/* <button className='btn--text' >Explore Our Services</button> */}
+  <Button text="Explore Our Services" />
 </div>
     </div>
   )

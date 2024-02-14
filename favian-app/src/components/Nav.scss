@@ -1,0 +1,41 @@
+.nav {
+  display: flex;
+
+  &__logo {
+    position: relative;
+    left: 3vw;
+    width: 50vw;
+    // background-color: #fff;
+    color: gray;
+  }
+
+  &__listes {
+    position: relative;
+    right: 5vw;
+    width: 50vw;
+    // background-color: #fff;
+    color: gray;
+    display: flex;
+    justify-content: end;
+
+    .listes {
+      &--ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+
+        li {
+          cursor: pointer;
+          transition: color 0.2s;
+          margin-right: 25px;
+
+          &:hover {
+            color: #fd6262;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: ". . . .";
+  width: 94vw;
+  position: relative;
+  top: 8vh;
+  color: gray;
+
+  &__col--contact {
+    line-height: 2rem;
+    font-size: 18px;
+    margin: 15px;
+
+    .contact {
+      line-height: 1rem;
+    }
+  }
+
+  &__col--service {
+    line-height: 2.5rem;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+  }
+
+  &__col--mail {
+    line-height: 2rem;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+
+    .col-contact {
+      form {
+        display: flex;
+        flex-direction: column;
+        label {
+          font-size: 14px;
+        }
+        input {
+          max-width: 230px;
+          padding: 20px;
+          border-radius: 5px;
+          background-color: transparent;
+          outline: none;
+          border: 1px solid gray;
+        }
+      }
+    }
+    .col-btn {
+      margin-top: 25px;
+    }
+  }
+
+  &__col--media {
+    line-height: 2rem;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+
+    .lissence {
+      font-size: 14px;
+      position: relative;
+      top: 10vh;
+    }
+  }
+}
