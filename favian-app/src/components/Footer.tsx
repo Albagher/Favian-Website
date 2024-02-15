@@ -1,8 +1,11 @@
 import Button from "./Button";
 import "./Footer.scss";
 import FormeButton from "./FormeButton";
+
+//@ts-ignore
 type Props = {};
 
+//@ts-ignore
 const Footer = (props: Props) => {
   return (
     <div className="container">

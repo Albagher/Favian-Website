@@ -1,8 +1,10 @@
 import FormeButton from "./FormeButton";
 import "./Nav.scss";
 
+//@ts-ignore
 type Props = {};
 
+//@ts-ignore
 const Nav = (props: Props) => {
   return (
     <div className="nav">
