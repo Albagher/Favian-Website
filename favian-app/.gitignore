@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# dotenv environment variables file
+.env
+
+# Optional eslint cache
+.eslintcache
