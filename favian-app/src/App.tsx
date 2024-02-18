@@ -9,6 +9,22 @@ import bgImageSection4bottm from "./images/bg-center-section4.webp";
 import partnersBg from "./images/partnersBg.webp";
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
+import WhoWeAre from "./components/WhoWeAre";
+
+const whoWeAre = {
+  title: "Who We Are",
+  paragraphe: `
+          Favian is a leading business consultant based in Paris, with a global
+          presence in Germany and Canada. Our team of agile and creative
+          professionals, powered by AI and data science, delivers valuable
+          insights and analysis to clients, helping them optimize their business
+          operations and strategies. We specialize in providing crucial
+          consulting services to various industries, leveraging data to drive
+          informed decision-making and maximize results. We pride ourselves on
+          our adaptability in the fast-paced business world, which is crucial in
+          the ever-evolving data analysis industry.
+  `,
+};
 
 function App() {
   return (
@@ -37,7 +53,7 @@ function App() {
             )}
           >
             <div className="content">
-              <div className="text-content">
+              <div className="text__content--presentaion">
                 <Presentation />
               </div>
             </div>
@@ -77,12 +93,10 @@ function App() {
               )}
             >
               <div className="description-content">
-                <div className="text-content">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Dicta numquam, minus placeat aliquam officia necessitatibus ab
-                  ducimus impedit sint. Possimus, maiores assumenda! Accusantium
-                  rem assumenda expedita cumque eaque odio aut!
-                </div>
+                <WhoWeAre
+                  title={whoWeAre.title}
+                  paragraphe={whoWeAre.paragraphe}
+                />
               </div>
             </Parallax>
           </div>
@@ -203,12 +217,6 @@ function App() {
                   <div
                     style={{
                       position: "absolute",
-                      // width: `100%`,
-                      // height: "1500px",
-                      // overflow: "hidden",
-                      // top: "-160.164px",
-                      // transform: `0px, 0px,  ${percentage * 2}px`,
-                      // transform:"translateZ(0px)"
                       transform: `perspective(500px) translate3d(10px, 0, ${
                         percentage * 100
                       }px)`,
@@ -218,7 +226,6 @@ function App() {
                       src={partnersBg}
                       alt="Votre image"
                       style={{
-                        // width: "100%",
                         overflow: "hidden",
                         filter: "contrast(1.18)",
                       }}
