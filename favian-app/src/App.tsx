@@ -10,6 +10,7 @@ import partnersBg from "./images/partnersBg.webp";
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 import WhoWeAre from "./components/WhoWeAre";
+import AboutUsMoreInfo from "./components/AboutUsMoreInfo";
 
 const whoWeAre = {
   title: "Who We Are",
@@ -100,7 +101,9 @@ function App() {
               </div>
             </Parallax>
           </div>
-          <div className="description-right">right</div>
+          <div className="description-right">
+            <AboutUsMoreInfo />
+          </div>
         </section>
       </div>
 
