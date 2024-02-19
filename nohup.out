@@ -1,0 +1,15 @@
+Gtk-Message: 22:34:27.010: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(chrome:25967): Gtk-WARNING **: 22:34:27.091: GTK+ module /snap/chromium/2757/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 22:34:27.091: Failed to load module "canberra-gtk-module"
+
+(chrome:25967): Gtk-WARNING **: 22:34:27.093: GTK+ module /snap/chromium/2757/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 22:34:27.093: Failed to load module "canberra-gtk-module"
+[25967:25967:0219/223427.116617:ERROR:atom_cache.cc(224)] Add _ICC_PROFILE_1 to kAtomsToCache
+[25967:25967:0219/223427.127467:ERROR:policy_logger.cc(156)] :components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc(161) Cloud management controller initialization aborted as CBCM is not enabled. Please use the `--enable-chrome-browser-cloud-management` command line flag to enable it if you are not using the official Google Chrome build.
+[25967:25967:0219/223430.543867:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.ScreenSaver.GetActive: object_path= /org/freedesktop/ScreenSaver: org.freedesktop.DBus.Error.NotSupported: This method is not implemented
+[26117:26117:0219/223438.257303:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 1 times!
+[26117:26117:0219/223531.207763:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 2 times!
+[26117:26117:0219/223538.309488:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 3 times!

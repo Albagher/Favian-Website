@@ -1,0 +1,75 @@
+.about-us-more-info {
+  display: flex;
+  justify-content: center;
+
+  &__container {
+    width: 50%;
+  }
+
+  &__services,
+  &__acceleration,
+  &__modernization,
+  &__experience-service {
+    &-item {
+      width: 35%;
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: (
+        0px 0px 30px 0px rgba(0, 0, 0, 0.3),
+        0 1px 4px rgba(0, 0, 0, 0.6)
+      );
+      background-color: rgba(27, 28, 30);
+
+      &-logo {
+        // styles pour le logo
+        // par exemple, taille, marges, etc.
+      }
+
+      &-title {
+        // styles pour le titre de chaque service
+        // par exemple, taille de la police, poids, couleur, etc.
+        color: #889ce7;
+      }
+
+      &-description {
+        color: rgb(138, 138, 138);
+        line-height: 1.6em;
+        font-size: 14px;
+        width: 80%;
+      }
+      &-line {
+        border: solid 2px #3f4349;
+        border-radius: 5px;
+      }
+    }
+  }
+
+  // Vous pouvez ajouter des styles spécifiques à chaque section si nécessaire
+  &__services {
+    // Styles spécifiques à la section des services
+    position: relative;
+    top: -10vh;
+  }
+
+  &__acceleration {
+    // Styles spécifiques à la section d'accélération
+    display: flex;
+    justify-content: right;
+    position: relative;
+    top: -20vh;
+  }
+
+  &__modernization {
+    // Styles spécifiques à la section de modernisation
+    position: relative;
+    top: -30vh;
+  }
+
+  &__experience-service {
+    // Styles spécifiques à la section du service d'expérience
+    display: flex;
+    justify-content: right;
+    position: relative;
+    top: -40vh;
+  }
+}
